@@ -67,5 +67,7 @@ model的定义：
 
 第一此尝试是根据知乎上写的代码[Easy_Approach.ipynb](Easy_Approach.ipynb), 虽然能跑，但是没有做GPU或TPU的优化。导致及其缓慢，colab跑了好几个小时都没用。
 
-然后找到了tf官方的教程[dcgan.ipynb](dcgan.ipynb), 速度还不错，虽然最后结果不怎么样，但也让我明报原理了。
+然后找到了tf官方的教程[www.tensorflow.org](https://www.tensorflow.org/tutorials/generative/dcgan) :[dcgan.ipynb](dcgan.ipynb), 速度还不错，虽然最后结果不怎么样，但也让我明白原理了。
+
+接下来研究一下word2vec模型[www.tensorflow.org](https://www.tensorflow.org/tutorials/text/word2vec) ，为下一步的模型作准备。
 
