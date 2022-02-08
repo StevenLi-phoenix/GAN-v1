@@ -64,3 +64,8 @@ model的定义：
 2. 将R张训练集与F张fake图像和对应的label输入discriminator进行训练；
 3. 采样大小为N的随机噪声；
 4. 用train_on_batch，以目标label为1对generator进行训练更新。
+
+第一此尝试是根据知乎上写的代码[Easy_Approach.ipynb](Easy_Approach.ipynb), 虽然能跑，但是没有做GPU或TPU的优化。导致及其缓慢，colab跑了好几个小时都没用。
+
+然后找到了tf官方的教程[dcgan.ipynb](dcgan.ipynb), 速度还不错，虽然最后结果不怎么样，但也让我明报原理了。
+
